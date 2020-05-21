@@ -68,18 +68,19 @@ a:hover {
   margin-right: 18px;
 }
 
-.menu__list-item:first-child {
-  padding-left: 10px;
-}
-
 .menu__list-item:last-child {
   margin-right: 13px;
+}
+
+.menu__list-item-btn {
+  border: none;
+  background-color: transparent;
 }
 
 .menu__icon {
   width: 16px;
   height: 16px;
-  margin-top: 7px;
+  margin-top: 4px;
 }
 
 .icon {
