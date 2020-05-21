@@ -40,8 +40,10 @@ document.addEventListener('click', function (event) {
 });
 
 function search() {
-  document.location.href = `https://www.google.com/search?&q=${input.value}`;
-  input.value = '';
+  if (input.value) {
+    document.location.href = `https://www.google.com/search?&q=${input.value}`;
+    input.value = '';
+  }
 }
 
 document
